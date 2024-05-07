@@ -28,6 +28,10 @@ function App() {
   function add(){
     console.log('addition')
   }
+  function multipy(){
+    console.log('multipy')
+  }
+  
 
   return (
     <>
