@@ -25,6 +25,10 @@ function App() {
     )
   })
 
+  function add(){
+    console.log('addition')
+  }
+
   return (
     <>
       <h1>TODO APP</h1>
