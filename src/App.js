@@ -27,7 +27,7 @@ function App() {
 
   return (
     <>
-      <h1>TODO APP</h1>
+      <h1>TODO Web APP</h1>
       <form onSubmit={saveTodo}>
         <input type='text' name='todoItem'></input> <button>AddTodo</button>
       </form>
@@ -37,6 +37,7 @@ function App() {
       {finalList}
         </ul>
         </div>
+
     </>
   );
 }
