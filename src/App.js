@@ -29,6 +29,14 @@ function App() {
     console.log('addition')
   }
 
+
+  function newFeat1(){
+    console.log('new feature added')
+  }
+
+  function newfeaAdded(){
+    console.log('added new feature')
+  }
   return (
     <>
       <h1>TODO APP</h1>
