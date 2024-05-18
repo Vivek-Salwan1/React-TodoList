@@ -24,19 +24,6 @@ function App() {
     <Todolist todoItem = {value} index = {i} todolist={todolist} setTodolist = {setTodolist}/>
     )
   })
-
-  function add(){
-    console.log('addition')
-  }
-
-
-  function newFeat1(){
-    console.log('new feature added')
-  }
-
-  function newfeaAdded(){
-    console.log('added new feature')
-  }
   return (
     <>
       <h1>TODO Web APP</h1>
